@@ -1,0 +1,1235 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: namaz-vakti\n"
+"POT-Creation-Date: 2018-06-30 00:55+0300\n"
+"PO-Revision-Date: 2018-06-30 00:56+0300\n"
+"Last-Translator: Erdem Arslan\n"
+"Language-Team: Erdem Arslan <erdemsaid@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../include/page.about.php:1
+msgid ""
+"<p>Bu eklenti <a href=\"http://www.erdemarslan.com/\" target=\"_blank"
+"\">Erdem Arslan</a> tarafından yazılmıştır. Eklentide kullanılan namaz "
+"vakitlerine ait veriler T.C. Diyanet İşleri Başkanlığı'na aittir. Bu "
+"verilerin alınması ve/veya işlenmesi sırasında meydana gelebilecek "
+"hatalardan dolayı Erdem Arslan'ı sorumlu tutamazsınız.</p>\n"
+"\n"
+"<p><strong>İletişim</strong><br>\n"
+"Bu eklenti ile ilgili her türlü görüş öneri ve sorularınız için lütfen <a "
+"href=\"http://www.erdemarslan.com/\" target=\"_blank\">www.erdemarslan.com</"
+"a> adresini ziyaret ediniz.\n"
+"</p>"
+msgstr ""
+"<p>This plugin written by <a href=\"http://www.erdemarslan.com/\" target="
+"\"_blank\">Erdem Arslan</a>. Presidency of Religious Affairs of Turkey is "
+"owner the prayer times data. You don't blame Erdem Arslan for errors that "
+"may occur during the getting and/or processing that data.</p>\n"
+"\n"
+"<p><strong>Contact</strong><br>\n"
+"Any opinions about this plugin for your suggestions and questions, please "
+"visit <a href=\"http://www.erdemarslan.com/\" target=\"_blank\">www."
+"erdemarslan.com</a>.\n"
+"</p>"
+
+#: ../include/page.general.php:15 ../include/page.general.php:37
+msgid "Lütfen tüm alanları doldurunuz!"
+msgstr "Please fill all areas."
+
+#: ../include/page.general.php:23 ../include/page.general.php:32
+msgid "Ayarlar başarıyla kaydedildi."
+msgstr "Settings saved successfuly."
+
+#: ../include/page.general.php:59
+msgid "Varsayılan Ülke"
+msgstr "Default Country"
+
+#: ../include/page.general.php:63 ../include/widget.namazvakti.php:90
+msgid "Lütfen bir ülke seçiniz"
+msgstr "Please select a country"
+
+#: ../include/page.general.php:78
+msgid "Varsayılan Şehir"
+msgstr "Default City"
+
+#: ../include/page.general.php:82 ../include/widget.namazvakti.php:102
+#: ../namaz-vakti.php:138
+msgid "Lütfen bir şehir seçiniz"
+msgstr "Please select a city"
+
+#: ../include/page.general.php:98
+msgid "Varsayılan İlçe"
+msgstr "Default Town"
+
+#: ../include/page.general.php:102 ../include/widget.namazvakti.php:109
+#: ../namaz-vakti.php:139
+msgid "Lütfen bir ilçe seçiniz"
+msgstr "Please select a town"
+
+#: ../include/page.general.php:115
+msgid ""
+"Sadece; Ülke, TÜRKİYE seçilmiş ise İlçeler listesi aktif olur. Onun dışında "
+"bu liste boş olacaktır."
+msgstr ""
+"This list becomes active only if the selected Turkey as a country. "
+"Otherwise, this list will be empty."
+
+#: ../include/page.general.php:125 ../include/page.style.php:69
+msgid "Kaydet"
+msgstr "Save"
+
+#: ../include/page.style.php:12
+msgid "Pembe Rüya"
+msgstr "Dream"
+
+#: ../include/page.style.php:13
+msgid "Uzay"
+msgstr "Space"
+
+#: ../include/page.style.php:14
+msgid "Orman"
+msgstr "Forest"
+
+#: ../include/page.style.php:15
+msgid "Gece Yarısı"
+msgstr "Midnight"
+
+#: ../include/page.style.php:16
+msgid "Deniz"
+msgstr "Sea"
+
+#: ../include/page.style.php:17
+msgid "Gün Batımı"
+msgstr "Sunset"
+
+#: ../include/page.style.php:18
+msgid "Kahve"
+msgstr "Coffee"
+
+#: ../include/page.style.php:19
+msgid "Okyanus"
+msgstr "Ocean"
+
+#: ../include/page.style.php:30
+msgid "Widget Rengi"
+msgstr "Widget Color"
+
+#: ../include/widget.namazvakti.php:19
+msgid "Namaz Vakitleri"
+msgstr "Prayer/Azan Times"
+
+#: ../include/widget.namazvakti.php:20
+msgid "Bu widget namaz vakitlerini gösterir."
+msgstr "This widget show prayer/azan times."
+
+#: ../include/widget.namazvakti.php:33
+msgid "Widget Başlığı"
+msgstr "Widget Title"
+
+#: ../include/widget.namazvakti.php:56
+msgid "Ocak"
+msgstr "January"
+
+#: ../include/widget.namazvakti.php:56
+msgid "Şubat"
+msgstr "February"
+
+#: ../include/widget.namazvakti.php:56
+msgid "Mart"
+msgstr "March"
+
+#: ../include/widget.namazvakti.php:56
+msgid "Nisan"
+msgstr "April"
+
+#: ../include/widget.namazvakti.php:56
+msgid "Mayıs"
+msgstr "May"
+
+#: ../include/widget.namazvakti.php:56
+msgid "Haziran"
+msgstr "June"
+
+#: ../include/widget.namazvakti.php:56
+msgid "Temmuz"
+msgstr "July"
+
+#: ../include/widget.namazvakti.php:56
+msgid "Ağustos"
+msgstr "August"
+
+#: ../include/widget.namazvakti.php:56
+msgid "Eylül"
+msgstr "September"
+
+#: ../include/widget.namazvakti.php:56
+msgid "Ekim"
+msgstr "October"
+
+#: ../include/widget.namazvakti.php:56
+msgid "Kasım"
+msgstr "November"
+
+#: ../include/widget.namazvakti.php:56
+msgid "Aralık"
+msgstr "December"
+
+#: ../include/widget.namazvakti.php:88
+msgid "Ülke Seçiniz"
+msgstr "Select Country"
+
+#: ../include/widget.namazvakti.php:100
+msgid "Şehir Seçiniz"
+msgstr "Select City"
+
+#: ../include/widget.namazvakti.php:107
+msgid "İlçe Seçiniz"
+msgstr "Select Town"
+
+#: ../include/widget.namazvakti.php:113
+msgid "Vakti Al"
+msgstr "Get Times"
+
+#: ../include/widget.namazvakti.php:165
+msgid "İmsak"
+msgstr "Fajr"
+
+#: ../include/widget.namazvakti.php:170
+msgid "Güneş"
+msgstr "Tulu"
+
+#: ../include/widget.namazvakti.php:175
+msgid "Öğle"
+msgstr "Zuhr"
+
+#: ../include/widget.namazvakti.php:180
+msgid "İkindi"
+msgstr "Asr"
+
+#: ../include/widget.namazvakti.php:185
+msgid "Akşam"
+msgstr "Maghrib"
+
+#: ../include/widget.namazvakti.php:190
+msgid "Yatsı"
+msgstr "Isha"
+
+#: ../namaz-vakti.php:33
+msgid "Muharrem"
+msgstr "Muharram"
+
+#: ../namaz-vakti.php:34
+msgid "Safer"
+msgstr "Safar"
+
+#: ../namaz-vakti.php:35
+msgid "Rebiü'l-Evvel"
+msgstr "Rabi' al-awwal"
+
+#: ../namaz-vakti.php:36
+msgid "Rebiü'l-Ahir"
+msgstr "Rabi' al-thani"
+
+#: ../namaz-vakti.php:37
+msgid "Cemaziye'l-Evvel"
+msgstr "Jumada al-awwal"
+
+#: ../namaz-vakti.php:38
+msgid "Cemaziye'l-Ahir"
+msgstr "Jumada al-thani"
+
+#: ../namaz-vakti.php:39
+msgid "Recep"
+msgstr "Rajab"
+
+#: ../namaz-vakti.php:40
+msgid "Şaban"
+msgstr "Sha'ban"
+
+#: ../namaz-vakti.php:41
+msgid "Ramazan"
+msgstr "Ramadan"
+
+#: ../namaz-vakti.php:42
+msgid "Sevval"
+msgstr "Shawwal"
+
+#: ../namaz-vakti.php:43
+msgid "Zi'l-ka'de"
+msgstr "Dhu al-Qi'dah"
+
+#: ../namaz-vakti.php:44
+msgid "Zi'l-Hicce"
+msgstr "Dhu al-Hijjah"
+
+#: ../namaz-vakti.php:48
+msgid "ABD"
+msgstr "United States of America"
+
+#: ../namaz-vakti.php:48
+msgid "AFGANISTAN"
+msgstr "Afghanistan"
+
+#: ../namaz-vakti.php:48
+msgid "ALMANYA"
+msgstr "Germany"
+
+#: ../namaz-vakti.php:48
+msgid "ANDORRA"
+msgstr "Andorra"
+
+#: ../namaz-vakti.php:48
+msgid "ANGOLA"
+msgstr "Angola"
+
+#: ../namaz-vakti.php:48
+msgid "ANGUILLA"
+msgstr "Anguilla"
+
+#: ../namaz-vakti.php:48
+msgid "ANTIGUA VE BARBUDA"
+msgstr "Antigua and Barbuda"
+
+#: ../namaz-vakti.php:48
+msgid "ARJANTIN"
+msgstr "Argentina"
+
+#: ../namaz-vakti.php:48
+msgid "ARNAVUTLUK"
+msgstr "Albania"
+
+#: ../namaz-vakti.php:48
+msgid "ARUBA"
+msgstr "Aruba"
+
+#: ../namaz-vakti.php:48
+msgid "AVUSTRALYA"
+msgstr "Australia"
+
+#: ../namaz-vakti.php:48
+msgid "AVUSTURYA"
+msgstr "Austria"
+
+#: ../namaz-vakti.php:48
+msgid "AZERBAYCAN"
+msgstr "Azerbaijan"
+
+#: ../namaz-vakti.php:48
+msgid "BAHAMALAR"
+msgstr "Bahamas"
+
+#: ../namaz-vakti.php:48
+msgid "BAHREYN"
+msgstr "Bahrain"
+
+#: ../namaz-vakti.php:48
+msgid "BANGLADES"
+msgstr "Bangladesh"
+
+#: ../namaz-vakti.php:48
+msgid "BARBADOS"
+msgstr "Barbados"
+
+#: ../namaz-vakti.php:48
+msgid "BELARUS"
+msgstr "Belarus"
+
+#: ../namaz-vakti.php:48
+msgid "BELCIKA"
+msgstr "Belgium"
+
+#: ../namaz-vakti.php:48
+msgid "BELIZE"
+msgstr "Belize"
+
+#: ../namaz-vakti.php:48
+msgid "BENIN"
+msgstr "Benin"
+
+#: ../namaz-vakti.php:48
+msgid "BERMUDA"
+msgstr "Bermuda"
+
+#: ../namaz-vakti.php:48
+msgid "BIRLESIK ARAP EMIRLIGI"
+msgstr "United Arab Emirates"
+
+#: ../namaz-vakti.php:48
+msgid "BOLIVYA"
+msgstr "Bolivia"
+
+#: ../namaz-vakti.php:48
+msgid "BOSNA HERSEK"
+msgstr "Bosnia-Herzegovina"
+
+#: ../namaz-vakti.php:48
+msgid "BOTSVANA"
+msgstr "Botswana"
+
+#: ../namaz-vakti.php:48
+msgid "BREZILYA"
+msgstr "Brazil"
+
+#: ../namaz-vakti.php:48
+msgid "BRUNEI"
+msgstr "Brunei"
+
+#: ../namaz-vakti.php:48
+msgid "BULGARISTAN"
+msgstr "Bulgaria"
+
+#: ../namaz-vakti.php:48
+msgid "BURKINA FASO"
+msgstr "Burkina Faso"
+
+#: ../namaz-vakti.php:48
+msgid "BURMA (MYANMAR)"
+msgstr "Burma (Myanmar)"
+
+#: ../namaz-vakti.php:48
+msgid "BURUNDI"
+msgstr "Burundi"
+
+#: ../namaz-vakti.php:48
+msgid "BUTAN"
+msgstr "Bhutan"
+
+#: ../namaz-vakti.php:48
+msgid "CAD"
+msgstr "Chad"
+
+#: ../namaz-vakti.php:48
+msgid "CECENISTAN"
+msgstr "Chechnya"
+
+#: ../namaz-vakti.php:48
+msgid "CEK CUMHURIYETI"
+msgstr "Czech Republic"
+
+#: ../namaz-vakti.php:48
+msgid "CEZAYIR"
+msgstr "Algeria"
+
+#: ../namaz-vakti.php:48
+msgid "CIBUTI"
+msgstr "Djibouti"
+
+#: ../namaz-vakti.php:48
+msgid "CIN"
+msgstr "China"
+
+#: ../namaz-vakti.php:48
+msgid "DANIMARKA"
+msgstr "Denmark"
+
+#: ../namaz-vakti.php:48
+msgid "DEMOKRATIK KONGO CUMHURIYETI"
+msgstr "Democratic Republic of Congo"
+
+#: ../namaz-vakti.php:48
+msgid "DOGU TIMOR"
+msgstr "East Timor"
+
+#: ../namaz-vakti.php:48
+msgid "DOMINIK"
+msgstr "Dominica"
+
+#: ../namaz-vakti.php:48
+msgid "DOMINIK CUMHURIYETI"
+msgstr "Dominican Republic"
+
+#: ../namaz-vakti.php:48
+msgid "EKVATOR"
+msgstr "Ecuador"
+
+#: ../namaz-vakti.php:48
+msgid "EKVATOR GINESI"
+msgstr "Equatorial Guinea"
+
+#: ../namaz-vakti.php:48
+msgid "EL SALVADOR"
+msgstr "El Salvador"
+
+#: ../namaz-vakti.php:48
+msgid "ENDONEZYA"
+msgstr "Indonesia"
+
+#: ../namaz-vakti.php:48
+msgid "ERITRE"
+msgstr "Eritrea"
+
+#: ../namaz-vakti.php:48
+msgid "ERMENISTAN"
+msgstr "Armenia"
+
+#: ../namaz-vakti.php:48
+msgid "ESTONYA"
+msgstr "Estonia"
+
+#: ../namaz-vakti.php:48
+msgid "ETYOPYA"
+msgstr "Ethiopia"
+
+#: ../namaz-vakti.php:48
+msgid "FAS"
+msgstr "Morocco"
+
+#: ../namaz-vakti.php:48
+msgid "FIJI"
+msgstr "Fiji"
+
+#: ../namaz-vakti.php:48
+msgid "FILDISI SAHILI"
+msgstr "Côte d'Ivoire"
+
+#: ../namaz-vakti.php:48
+msgid "FILIPINLER"
+msgstr "Philippines"
+
+#: ../namaz-vakti.php:48
+msgid "FILISTIN"
+msgstr "Palestine"
+
+#: ../namaz-vakti.php:48
+msgid "FINLANDIYA"
+msgstr "Finland"
+
+#: ../namaz-vakti.php:48
+msgid "FRANSA"
+msgstr "France"
+
+#: ../namaz-vakti.php:48
+msgid "GABON"
+msgstr "Gabon"
+
+#: ../namaz-vakti.php:48
+msgid "GAMBIYA"
+msgstr "Gambia"
+
+#: ../namaz-vakti.php:48
+msgid "GANA"
+msgstr "Ghana"
+
+#: ../namaz-vakti.php:48
+msgid "GINE"
+msgstr "Guinea"
+
+#: ../namaz-vakti.php:48
+msgid "GRANADA"
+msgstr "Granada"
+
+#: ../namaz-vakti.php:48
+msgid "GRONLAND"
+msgstr "Greenland"
+
+#: ../namaz-vakti.php:48
+msgid "GUADELOPE"
+msgstr "Guadeloupe"
+
+#: ../namaz-vakti.php:48
+msgid "GUAM ADASI"
+msgstr "Guam Island"
+
+#: ../namaz-vakti.php:48
+msgid "GUATEMALA"
+msgstr "Guatemala"
+
+#: ../namaz-vakti.php:48
+msgid "GUNEY AFRIKA"
+msgstr "South Africa"
+
+#: ../namaz-vakti.php:48
+msgid "GUNEY KORE"
+msgstr "South Korea"
+
+#: ../namaz-vakti.php:48
+msgid "GURCISTAN"
+msgstr "Georgia"
+
+#: ../namaz-vakti.php:48
+msgid "GUYANA"
+msgstr "Guyana"
+
+#: ../namaz-vakti.php:48
+msgid "HAITI"
+msgstr "Haiti"
+
+#: ../namaz-vakti.php:48
+msgid "HINDISTAN"
+msgstr "India"
+
+#: ../namaz-vakti.php:48
+msgid "HIRVATISTAN"
+msgstr "Croatia"
+
+#: ../namaz-vakti.php:48
+msgid "HOLLANDA"
+msgstr "Netherlands"
+
+#: ../namaz-vakti.php:48
+msgid "HOLLANDA ANTILLERI"
+msgstr "Netherlands Antilles"
+
+#: ../namaz-vakti.php:48
+msgid "HONDURAS"
+msgstr "Honduras"
+
+#: ../namaz-vakti.php:48
+msgid "HONG KONG"
+msgstr "Hong Kong"
+
+#: ../namaz-vakti.php:48
+msgid "INGILTERE"
+msgstr "Great Britain"
+
+#: ../namaz-vakti.php:48
+msgid "IRAK"
+msgstr "Iraq"
+
+#: ../namaz-vakti.php:48
+msgid "IRAN"
+msgstr "Iran"
+
+#: ../namaz-vakti.php:48
+msgid "IRLANDA"
+msgstr "Ireland"
+
+#: ../namaz-vakti.php:48
+msgid "ISPANYA"
+msgstr "Spain"
+
+#: ../namaz-vakti.php:48
+msgid "ISRAIL"
+msgstr "Israel"
+
+#: ../namaz-vakti.php:48
+msgid "ISVEC"
+msgstr "Sweden"
+
+#: ../namaz-vakti.php:48
+msgid "ISVICRE"
+msgstr "Swiss"
+
+#: ../namaz-vakti.php:48
+msgid "ITALYA"
+msgstr "Italy"
+
+#: ../namaz-vakti.php:48
+msgid "IZLANDA"
+msgstr "Iceland"
+
+#: ../namaz-vakti.php:48
+msgid "JAMAIKA"
+msgstr "Jamaika"
+
+#: ../namaz-vakti.php:48
+msgid "JAPONYA"
+msgstr "Japan"
+
+#: ../namaz-vakti.php:48
+msgid "KAMBOCYA"
+msgstr "Cambodia"
+
+#: ../namaz-vakti.php:48
+msgid "KAMERUN"
+msgstr "Cameroon"
+
+#: ../namaz-vakti.php:48
+msgid "KANADA"
+msgstr "Canada"
+
+#: ../namaz-vakti.php:48
+msgid "KARADAG"
+msgstr "Montenegro"
+
+#: ../namaz-vakti.php:48
+msgid "KATAR"
+msgstr "Qatar"
+
+#: ../namaz-vakti.php:48
+msgid "KAZAKISTAN"
+msgstr "Kazakhistan"
+
+#: ../namaz-vakti.php:48
+msgid "KENYA"
+msgstr "Kenya"
+
+#: ../namaz-vakti.php:48
+msgid "KIRGIZISTAN"
+msgstr "Kirghizistan"
+
+#: ../namaz-vakti.php:48
+msgid "KOLOMBIYA"
+msgstr "Colombia"
+
+#: ../namaz-vakti.php:48
+msgid "KOMORLAR"
+msgstr "Comoros"
+
+#: ../namaz-vakti.php:48
+msgid "KOSOVA"
+msgstr "Kosovo"
+
+#: ../namaz-vakti.php:48
+msgid "KOSTARIKA"
+msgstr "Costa Rica"
+
+#: ../namaz-vakti.php:48
+msgid "KUBA"
+msgstr "Cuba"
+
+#: ../namaz-vakti.php:48
+msgid "KUDUS"
+msgstr "Jerusalem"
+
+#: ../namaz-vakti.php:48
+msgid "KUVEYT"
+msgstr "Kuwait"
+
+#: ../namaz-vakti.php:48
+msgid "KUZEY KIBRIS"
+msgstr "North Cyprus"
+
+#: ../namaz-vakti.php:48
+msgid "KUZEY KORE"
+msgstr "North Korea"
+
+#: ../namaz-vakti.php:48
+msgid "LAOS"
+msgstr "Laos"
+
+#: ../namaz-vakti.php:48
+msgid "LESOTO"
+msgstr "Lesotho"
+
+#: ../namaz-vakti.php:48
+msgid "LETONYA"
+msgstr "Latvia"
+
+#: ../namaz-vakti.php:48
+msgid "LIBERYA"
+msgstr "Liberia"
+
+#: ../namaz-vakti.php:48
+msgid "LIBYA"
+msgstr "Libya"
+
+#: ../namaz-vakti.php:48
+msgid "LIECHTENSTEIN"
+msgstr "Liechtenstein"
+
+#: ../namaz-vakti.php:48
+msgid "LITVANYA"
+msgstr "Lithuanian"
+
+#: ../namaz-vakti.php:48
+msgid "LUBNAN"
+msgstr "Lebanon"
+
+#: ../namaz-vakti.php:48
+msgid "LUKSEMBURG"
+msgstr "Luxembourg"
+
+#: ../namaz-vakti.php:48
+msgid "MACARISTAN"
+msgstr "Hungary"
+
+#: ../namaz-vakti.php:48
+msgid "MADAGASKAR"
+msgstr "Madagascar"
+
+#: ../namaz-vakti.php:48
+msgid "MAKAO"
+msgstr "Macau"
+
+#: ../namaz-vakti.php:48
+msgid "MAKEDONYA"
+msgstr "Macedonia"
+
+#: ../namaz-vakti.php:48
+msgid "MALAVI"
+msgstr "Malawi"
+
+#: ../namaz-vakti.php:48
+msgid "MALDIVLER"
+msgstr "Maldives"
+
+#: ../namaz-vakti.php:48
+msgid "MALEZYA"
+msgstr "Malaysia"
+
+#: ../namaz-vakti.php:48
+msgid "MALI"
+msgstr "Mali"
+
+#: ../namaz-vakti.php:48
+msgid "MALTA"
+msgstr "Malta"
+
+#: ../namaz-vakti.php:48
+msgid "MARTINIK"
+msgstr "Martinique"
+
+#: ../namaz-vakti.php:48
+msgid "MAURITIUS ADASI"
+msgstr "Mauritius Island"
+
+#: ../namaz-vakti.php:48
+msgid "MAYOTTE"
+msgstr "Mayotte"
+
+#: ../namaz-vakti.php:48
+msgid "MEKSIKA"
+msgstr "Mexico"
+
+#: ../namaz-vakti.php:48
+msgid "MIKRONEZYA"
+msgstr "Micronesia"
+
+#: ../namaz-vakti.php:48
+msgid "MISIR"
+msgstr "Egypt"
+
+#: ../namaz-vakti.php:48
+msgid "MOGOLISTAN"
+msgstr "Mongolia"
+
+#: ../namaz-vakti.php:48
+msgid "MOLDAVYA"
+msgstr "Moldavia"
+
+#: ../namaz-vakti.php:48
+msgid "MONAKO"
+msgstr "Monaco"
+
+#: ../namaz-vakti.php:48
+msgid "MONTSERRAT (U.K.)"
+msgstr "Montserrat (U.K)"
+
+#: ../namaz-vakti.php:48
+msgid "MORITANYA"
+msgstr "Mauritania"
+
+#: ../namaz-vakti.php:48
+msgid "MOZAMBIK"
+msgstr "Mozambique"
+
+#: ../namaz-vakti.php:48
+msgid "NAMBIYA"
+msgstr "Nambia"
+
+#: ../namaz-vakti.php:48
+msgid "NEPAL"
+msgstr "Nepal"
+
+#: ../namaz-vakti.php:48
+msgid "NIJER"
+msgstr "Niger"
+
+#: ../namaz-vakti.php:48
+msgid "NIJERYA"
+msgstr "Nigeria"
+
+#: ../namaz-vakti.php:48
+msgid "NIKARAGUA"
+msgstr "Nicaragua"
+
+#: ../namaz-vakti.php:48
+msgid "NIUE"
+msgstr "Niue"
+
+#: ../namaz-vakti.php:48
+msgid "NORVEC"
+msgstr "Norway"
+
+#: ../namaz-vakti.php:48
+msgid "ORTA AFRIKA CUMHURIYETI"
+msgstr "Central African Republic"
+
+#: ../namaz-vakti.php:48
+msgid "OZBEKISTAN"
+msgstr "Uzbekistan"
+
+#: ../namaz-vakti.php:48
+msgid "PAKISTAN"
+msgstr "Pakistan"
+
+#: ../namaz-vakti.php:48
+msgid "PALAU"
+msgstr "Palau"
+
+#: ../namaz-vakti.php:48
+msgid "PANAMA"
+msgstr "Panama"
+
+#: ../namaz-vakti.php:48
+msgid "PAPUA YENI GINE"
+msgstr "Papua New Guinea"
+
+#: ../namaz-vakti.php:48
+msgid "PARAGUAY"
+msgstr "Paraguay"
+
+#: ../namaz-vakti.php:48
+msgid "PERU"
+msgstr "Peru"
+
+#: ../namaz-vakti.php:48
+msgid "PITCAIRN ADASI"
+msgstr "Pitcairn Island"
+
+#: ../namaz-vakti.php:48
+msgid "POLONYA"
+msgstr "Poland"
+
+#: ../namaz-vakti.php:48
+msgid "PORTEKIZ"
+msgstr "Portugal"
+
+#: ../namaz-vakti.php:48
+msgid "PORTO RIKO"
+msgstr "Puerto Rico"
+
+#: ../namaz-vakti.php:48
+msgid "REUNION"
+msgstr "Reunion"
+
+#: ../namaz-vakti.php:48
+msgid "ROMANYA"
+msgstr "Rumania"
+
+#: ../namaz-vakti.php:48
+msgid "RUANDA"
+msgstr "Ruanda"
+
+#: ../namaz-vakti.php:48
+msgid "RUSYA"
+msgstr "Russia"
+
+#: ../namaz-vakti.php:48
+msgid "SAMOA"
+msgstr "Samoa"
+
+#: ../namaz-vakti.php:48
+msgid "SENEGAL"
+msgstr "Senegal"
+
+#: ../namaz-vakti.php:48
+msgid "SEYSEL ADALARI"
+msgstr "Seychelles"
+
+#: ../namaz-vakti.php:48
+msgid "SILI"
+msgstr "Chile"
+
+#: ../namaz-vakti.php:48
+msgid "SINGAPUR"
+msgstr "Singapore"
+
+#: ../namaz-vakti.php:48
+msgid "SIRBISTAN"
+msgstr "Serbia"
+
+#: ../namaz-vakti.php:48
+msgid "SLOVAKYA"
+msgstr "Slovakia"
+
+#: ../namaz-vakti.php:48
+msgid "SLOVENYA"
+msgstr "Slovenia"
+
+#: ../namaz-vakti.php:48
+msgid "SOMALI"
+msgstr "Somalia"
+
+#: ../namaz-vakti.php:48
+msgid "SRI LANKA"
+msgstr "Sri Lanka"
+
+#: ../namaz-vakti.php:48
+msgid "SUDAN"
+msgstr "Sudan"
+
+#: ../namaz-vakti.php:48
+msgid "SURINAM"
+msgstr "Suriname"
+
+#: ../namaz-vakti.php:48
+msgid "SURIYE"
+msgstr "Syria"
+
+#: ../namaz-vakti.php:48
+msgid "SUUDI ARABISTAN"
+msgstr "Saudi Arabia"
+
+#: ../namaz-vakti.php:48
+msgid "SVALBARD"
+msgstr "Svalbard"
+
+#: ../namaz-vakti.php:48
+msgid "SVAZILAND"
+msgstr "Swaziland"
+
+#: ../namaz-vakti.php:48
+msgid "TACIKISTAN"
+msgstr "Tajikistan"
+
+#: ../namaz-vakti.php:48
+msgid "TANZANYA"
+msgstr "Tanzania"
+
+#: ../namaz-vakti.php:48
+msgid "TAYLAND"
+msgstr "Thailand"
+
+#: ../namaz-vakti.php:48
+msgid "TAYVAN"
+msgstr "Taiwan"
+
+#: ../namaz-vakti.php:48
+msgid "TOGO"
+msgstr "Togo"
+
+#: ../namaz-vakti.php:48
+msgid "TONGA"
+msgstr "Tonga"
+
+#: ../namaz-vakti.php:48
+msgid "TRINIDAT VE TOBAGO"
+msgstr "Of Trinidad and Tobago"
+
+#: ../namaz-vakti.php:48
+msgid "TUNUS"
+msgstr "Tunis"
+
+#: ../namaz-vakti.php:48
+msgid "TURKIYE"
+msgstr "Turkey"
+
+#: ../namaz-vakti.php:48
+msgid "TURKMENISTAN"
+msgstr "Turkmenistan"
+
+#: ../namaz-vakti.php:48
+msgid "UGANDA"
+msgstr "Uganda"
+
+#: ../namaz-vakti.php:48
+msgid "UKRAYNA"
+msgstr "Ukraine"
+
+#: ../namaz-vakti.php:48
+msgid "UKRAYNA-KIRIM"
+msgstr "Ukraine-Crimea"
+
+#: ../namaz-vakti.php:48
+msgid "UMMAN"
+msgstr "Oman"
+
+#: ../namaz-vakti.php:48
+msgid "URDUN"
+msgstr "Jordan"
+
+#: ../namaz-vakti.php:48
+msgid "URUGUAY"
+msgstr "Uruguay"
+
+#: ../namaz-vakti.php:48
+msgid "VANUATU"
+msgstr "Vanuatu"
+
+#: ../namaz-vakti.php:48
+msgid "VATIKAN"
+msgstr "Vatican"
+
+#: ../namaz-vakti.php:48
+msgid "VENEZUELA"
+msgstr "Venezuelan"
+
+#: ../namaz-vakti.php:48
+msgid "VIETNAM"
+msgstr "Vietnam"
+
+#: ../namaz-vakti.php:48
+msgid "YEMEN"
+msgstr "Yemen"
+
+#: ../namaz-vakti.php:48
+msgid "YENI KALEDONYA"
+msgstr "New Caledonia"
+
+#: ../namaz-vakti.php:48
+msgid "YENI ZELLANDA"
+msgstr "New Zealand"
+
+#: ../namaz-vakti.php:48
+msgid "YESIL BURUN"
+msgstr "Cape Verde"
+
+#: ../namaz-vakti.php:48
+msgid "YUNANISTAN"
+msgstr "Greece"
+
+#: ../namaz-vakti.php:48
+msgid "ZAMBIYA"
+msgstr "Zambia"
+
+#: ../namaz-vakti.php:48
+msgid "ZIMBABVE"
+msgstr "Zimbabwe"
+
+#: ../namaz-vakti.php:132
+msgid "İmsak'a kalan zaman"
+msgstr "Time until Fajr"
+
+#: ../namaz-vakti.php:133
+msgid "Güneş'e kalan zaman"
+msgstr "Time until Tulu"
+
+#: ../namaz-vakti.php:134
+msgid "Öğle'ne kalan zaman"
+msgstr "Time until Zuhr"
+
+#: ../namaz-vakti.php:135
+msgid "İkindi'ye kalan zaman"
+msgstr "Time until Asr"
+
+#: ../namaz-vakti.php:136
+msgid "Akşam'a kalan zaman"
+msgstr "Time until Maghrib"
+
+#: ../namaz-vakti.php:137
+msgid "Yatsı'ya kalan zaman"
+msgstr "Time until Isha"
+
+#: ../namaz-vakti.php:140
+msgid "Vakitleri çekebilmek için öncelikle ülke seçmelisiniz!"
+msgstr "You must select a country for get times."
+
+#: ../namaz-vakti.php:141
+msgid "Vakitleri çekebilmek için öncelikle şehir seçmelisiniz!"
+msgstr "You must select a city for get times."
+
+#: ../namaz-vakti.php:142
+msgid "Vakitleri çekebilmek için öncelikle ilçe seçmelisiniz!"
+msgstr "You must select a town for get times."
+
+#: ../namaz-vakti.php:143
+msgid "Sunucudan veri çekilemedi!"
+msgstr "Could not get data from the server!"
+
+#: ../namaz-vakti.php:256
+msgid "Namaz Vakti Ayarları"
+msgstr "Prayer Times Setting"
+
+#: ../namaz-vakti.php:266
+msgid "Ayarlar"
+msgstr "Settings"
+
+#: ../namaz-vakti.php:267 ../namaz-vakti.php:290
+msgid "Renk Ayarları"
+msgstr "Color Settings"
+
+#: ../namaz-vakti.php:281
+msgid "Bu sayfaya erişim izniniz bulunmuyor."
+msgstr "You dont access this page."
+
+#: ../namaz-vakti.php:284
+msgid "Wordpress için Namaz Vakitleri"
+msgstr "Prayer Times for Wordpress"
+
+#: ../namaz-vakti.php:289
+msgid "Genel Ayarlar"
+msgstr "General Settings"
+
+#: ../namaz-vakti.php:291
+msgid "Hakkında"
+msgstr "About"
+
+#: ../namaz-vakti.php:327
+msgid "Ayarlar sayfası bulunamadı!"
+msgstr "We dont find the page."
+
+#: ../include/widget.namazvakti.php:308
+msgid "İmsak'a kalan zaman"
+msgstr "Time until Fajr"
+
+#: ../include/widget.namazvakti.php:309
+msgid "Güneş'e kalan zaman"
+msgstr "Time until Tulu"
+
+#: ../include/widget.namazvakti.php:310
+msgid "Öğle'ye kalan zaman"
+msgstr "Time until Zuhr"
+
+#: ../include/widget.namazvakti.php:311
+msgid "İkindi'ye kalan zaman"
+msgstr "Time until Asr"
+
+#: ../include/widget.namazvakti.php:312
+msgid "Akşam'a kalan zaman"
+msgstr "Time until Maghrib"
+
+#: ../include/widget.namazvakti.php:313
+msgid "Yatsı'ya kalan zaman"
+msgstr "Time until Isha"
+
+#: ../include/widget.namazvakti.php:40
+msgid "Vakit İsimleri Dili"
+msgstr "Prayer Names Language"
+
+#: ../include/widget.namazvakti.php:42
+msgid "Türkçe"
+msgstr "Turkish"
+
+#: ../include/widget.namazvakti.php:43
+msgid "İngilizce/Arapça"
+msgstr "English/Arabic"
+
+#: ../include/widget.namazvakti.php:44
+msgid "Her İkisi"
+msgstr "Both"
+
+#: ../include/widget.namazvakti.php:51
+msgid "Arayüz Dili"
+msgstr "Interface Language"
+
+#: ../include/widget.namazvakti.php:53
+msgid "Boşnakça"
+msgstr "Bosnian"
+
+#: ../include/widget.namazvakti.php:54
+msgid "Danca"
+msgstr "Danish"
+
+#: ../include/widget.namazvakti.php:55
+msgid "Almanca"
+msgstr "German"
+
+#: ../include/widget.namazvakti.php:56
+msgid "İspanyolca"
+msgstr "Spanish"
+
+#: ../include/widget.namazvakti.php:57
+msgid "Fransızca"
+msgstr "French"
+
+#: ../include/widget.namazvakti.php:126
+msgid "Şehirler alınamadı, teknik bir sorun oluştu!"
+msgstr "Cities could not be retrieved, a technical problem occurred!"
+
+#: ../include/widget.namazvakti.php:127
+msgid "İlçeler alınamadı, teknik bir sorun oluştu!"
+msgstr "Towns could not be retrieved, a technical problem occurred!"
+
+#~ msgid "Kıble"
+#~ msgstr "Qibla"

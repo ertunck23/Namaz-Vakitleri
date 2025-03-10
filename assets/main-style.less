@@ -1,0 +1,191 @@
+@import url(//fonts.googleapis.com/css?family=Duru+Sans&subset=latin,latin-ext);
+
+.namazvakti {
+	color:#fff;
+	padding:0px;
+	font-family: 'Duru Sans', sans-serif;
+	display:block;
+	position:relative;
+	line-height:20px;
+	
+	.namazvakti_ayarlar {
+		display:none;
+		color:#F9F7ED;
+		padding:10px;
+		background-color:#36393D;
+		
+		
+		.nvButton {
+			-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+			-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+			box-shadow:inset 0px 1px 0px 0px #ffffff;
+			background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+			background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+			background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+			background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+			background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+			background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+			background-color:#f9f9f9;
+			-moz-border-radius:6px;
+			-webkit-border-radius:6px;
+			border-radius:6px;
+			border:1px solid #dcdcdc;
+			display:inline-block;
+			cursor:pointer;
+			color:#666666;
+			font-family: 'Duru Sans', sans-serif;
+			font-size:12px;
+			font-weight:bold;
+			padding:6px 24px;
+			text-decoration:none;
+			text-shadow:0px 1px 0px #ffffff;
+		}
+		.nvButton:hover {
+			background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+			background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+			background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+			background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+			background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+			background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+			background-color:#e9e9e9;
+		}
+		.nvButton:active {
+			position:relative;
+			top:1px;
+		}
+		
+		select {
+			width: 98%;
+			padding:5px;
+		}
+		
+		#ulkeler, #sehirler, #ilceler {
+			margin-bottom: 10px;
+		}
+		
+		#label_ilceler, #ilceler {
+			display:none;
+		}
+		
+		.buton_alani {
+			overflow:hidden;
+			
+			.btn_kendisi {
+				float:left;
+			}
+			
+			.loader {
+				float:left;
+				padding-left:20px;
+				padding-top:3px;
+				display:none;
+			}
+		}
+				
+	}
+	
+	.yer {
+		text-align:center;
+		background-color:@bg_location;
+		font-size:14px;
+		cursor:pointer;
+		padding-top:10px;
+		padding-bottom:10px;
+		line-height:20px;
+	} // yer son
+	
+	.zaman {
+		text-align:center;
+		background-color:@bg_time;
+		
+		.bugun {
+			font-size:24px;
+			padding:10px;
+		} // bugun son
+		
+		.hicri {
+			padding-bottom:10px;
+			font-size: 17px;
+		} // hicri son
+		
+		.kalanvakit_text {
+			padding-bottom:5px;
+		} // kalan vakit son
+		
+		.kalanvakit_zaman {
+			padding-bottom:10px;
+			text-align:center;
+			
+			#countdown_dashboard {
+				height:40px;
+				overflow:hidden;
+				margin-left:35%;
+				
+			}
+			
+			.weeks_dash, .days_dash {
+				display:none;
+			}
+			
+			.dash {
+				float: left;
+				position:relative;
+			}
+			
+			.dash .digit {
+				font-family: 'Duru Sans', sans-serif;
+				font-weight: bold;
+				float: left;
+				text-align: left;
+				font-size:18px;
+				position: relative;
+			}
+			
+			.dash_title {
+				float:left;
+				font-family: 'Duru Sans', sans-serif;
+				font-weight:bold;
+				font-size:18px;
+				text-align:center;
+				padding-left:2px;
+				padding-right:2px;
+				
+			}
+		}
+		
+	} // zaman son
+	
+	
+	.vakitler {
+		
+		.vakit {
+			background-color:@bg_times;
+			padding:15px;
+			overflow:hidden;
+			border-bottom:1px dotted #36393D;
+			
+			&:after {
+				border-bottom:none;
+			}
+			
+			
+			.vakit_adi {
+				float:left;
+				text-align:left;
+			}
+			
+			.vakit_saati {
+				float:right;
+				text-align:right;
+			}
+		}
+		
+		.active {
+			background-color:@bg_active;
+			color:@cl_active;
+			font-weight:bold;
+		}
+	} // vakitler son	
+}
