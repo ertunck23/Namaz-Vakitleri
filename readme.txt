@@ -36,8 +36,6 @@ This plugin shows prayer times with a widget. Prayer times are obtained through 
 * Mucahit YURT - Danish Translation
 * Sabahuddin Sijamhodzic - Bosnian
 
-= SUPPORT TRANSLATION =
-You can help me for translations. If you help me, you will download language files from http://www.erdemarslan.com/yuklemeler/namazvakti_langs.zip Please send your translations to erdemsaid[@t]gmail[d0t]com
 
 == Installation ==
 1. Eklenti klasörünü /wp-content/plugins/ klasörüne kopyala.
